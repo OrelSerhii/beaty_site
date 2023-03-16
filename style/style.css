@@ -1,0 +1,179 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #EEEFF1;
+    line-height: 1.625;
+}
+
+.header {
+    margin-top: 79px;
+    margin-bottom: 151px;
+}
+
+.container {
+    max-width: 1110px;
+    padding-left: calc(50vw - 555px);
+    padding-right: calc(50vw - 555px);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+.nav_list {
+    margin: 0;
+    padding: 0;
+}
+
+.nav_items {
+    display: inline-block;
+    margin-right: 42px;
+}
+
+.nav_items:last-of-type {
+    margin-right: 0;
+}
+
+.nav_link {
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav_link:hover,
+.nav_link:focus {
+    color: #34547A;
+    text-decoration: underline;
+    outline: none;
+}
+
+.nav_link--active {
+    color: #34547A;
+    font-weight: 500;
+}
+
+.offer {
+    margin-bottom: 140px;
+}
+
+.offer_title {
+    margin: 0 0 60px;
+    max-width: 541px;
+    font-size: 48px;
+    line-height: 1.645;
+}
+
+.offer_text {
+    width: 540px;
+    color: #727272;
+    margin: 0 0 65px;
+}
+
+.text {
+    width: 540px;
+    color: #727272;
+}
+
+.btn {
+    width: 225px;
+    background-color: #34547A;
+    color: white;
+    padding: 20px 41px;
+    box-sizing: border-box;
+    letter-spacing: 0.1em;
+    border: none;
+    line-height: 1.625;
+}
+
+.btn:hover,
+.btn:focus {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.about {
+    padding-top: 100px;
+    margin: 0 auto 100px;
+    width: 540px;
+    text-align: center;
+}
+
+.main {
+    background: #FFFFFF;
+}
+
+.about_title {
+    margin: 0 auto 50px;
+    width: 403px;
+    font-size: 32px;
+    line-height: 1.187;
+}
+
+.about_text {
+    margin: 0 0 100px;
+}
+
+.project {
+    background: #34547A;
+    color: white;
+}
+
+.project_item {
+    position: relative;
+    padding-left: 70px;
+    display: inline-block;
+}
+
+.project_img {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.project_title {
+    margin: 0;
+    font-size: 21px;
+    line-height: 1.190;
+
+}
+
+.project_text {
+    margin: 0 45px 103px 20px;
+}
+
+.project_text:last-of-type {
+    margin-right: 0;
+}
+
+.project_title {
+    margin: 103px 45px 0 20px;
+}
+
+.about2 {
+    padding-bottom: 50px;
+    margin: 0 auto 0;
+}
+
+.about_text2 {
+    margin-bottom: 0;
+}
+
+.video {
+    margin: 0 auto 100px;
+    max-width: 1050px;
+}
+
+.info {
+    background-color: #34547A;
+    color: white;
+    margin: auto;
+}
+
+.info_title {
+    margin: 0 0 20px 0;
+    padding-top: 50px;
+}
+
+.info_text {
+    padding-bottom: 50px;
+}
